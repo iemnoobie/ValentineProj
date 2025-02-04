@@ -1,0 +1,40 @@
+body {
+    background-image: url('IMG_0158.JPG'); /* Correct property for background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
+    height: 72vh; /* Ensures the body takes up the full viewport height */
+    margin: 0; /* Removes default margin */
+    display: flex; /* Enables flexbox for centering */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    text-align: center; /* Centers text within the container */
+    color: white; /* Optional: Change text color for better visibility */
+    font-family: "Birthstone", sans-serif; /* Optional: Set a font */
+}
+
+.container {
+    background-color: rgba(0, 0, 0, -0.5); /* Optional: Adds a semi-transparent background to the container for better readability */
+    padding: 20px; /* Adds some spacing inside the container */
+    border-radius: 10px; /* Optional: Rounds the corners of the container */
+}
+
+.btn {
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  
+  .btn:hover {
+    color: rgb(168, 235, 52);
+  }
+
+ 
